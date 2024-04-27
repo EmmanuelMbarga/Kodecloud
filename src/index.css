@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nav bar kodecloud */
+
+.navbarElements {
+  @apply capitalize text-gray-500 font-inter  Desktop:hidden Portable:hidden;
+}
+.sectionBody {
+  @apply flex gap-[0] my-8 max-w-[1478px] Laptop2:max-w-[1150px] Laptop2:gap-[4px]  Desktop:block Desktop:max-w-[1000px] Desktop:mt-10 Portable:block MiniPortable:block;
+}
+
+/*   */
+.logoTruspilot {
+  @apply text-white text-lg mr-4;
+}
+.textAutomation {
+  @apply text-gray-300;
+}
+.textAutomation2 {
+  @apply text-gray-300 text-sm;
+}
+
+.openFile{
+  @apply  rounded-b-xl p-6 transition-[0.8s] -translate-y-2
+}
+.closeFile{
+  @apply transition-[0.8s] translate-y-0
+}
+.menufooter{
+  @apply text-xs font-bold py-1 Portable:text-sm
+}
+.footerelement{
+  @apply capitalize text-sm text-gray-400 my-4 w-[178px] Desktop:text-[14px]
+}
+
+.footerSection2{
+  @apply flex gap-2 my-3 Portable:flex-col Portable:items-end
+}
+.footerSection2Title{
+  @apply uppercase font-bold text-lg
+}
+.footerSection2Texte{
+  @apply w-52 text-xs Portable:text-right Portable:w-40
+}
+.elementIndic{
+  @apply text-xs mr-3
+}
+
+.firtIcontheme{
+  @apply Portable:w-5 Portable:h-5
+}
+.secontIconTheme{
+  @apply w-6 h-6 Portable:w-5 Portable:h-5
+}
+
+.openFile{
+  @apply bg-gray-100 -mt-4 
+
+}
+.closeFile{
+  @apply bg-current
+}
+
+.rotate{
+  @apply h-6 w-6 Desktop:w-4 rotate-90 Portable:rotate-90
+}
+.notRotate{
+  @apply rotate-0 Portable:rotate-0
+}

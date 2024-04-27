@@ -1,0 +1,68 @@
+const chevronright=<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+<path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+</svg>
+
+export const elementfooter = [
+  {
+    id:1,
+    titleElement: "LEARNING PATHS",
+    element1: "devOps",
+    chevron:{chevronright},
+    element2: "kubernetes",
+    element3: "docker",
+    element4: "linux",
+    element5: "laC",
+    element6: "AWS",
+    element7: "GCP",
+    element8: "AZURE",
+  },
+  {
+    id:2,
+    titleElement: "COURSES",
+    chevron:{chevronright},
+    element1: "certfied kubernetes administrator",
+    element2: " certfied kubernetes security specialist",
+    element3: "AWS Cloud Practitioner",
+    element4: " microsoft asure solutions architect expert",
+    element5: "microsft azure administrator",
+  },
+  {
+    id:3,
+    titleElement: "COMMUNITY",
+    chevron:{chevronright},
+    element1: "join our community",
+    element2: "teach with us",
+    element3: "write with us",
+    element4: "ambassadors",
+    element5: "academia",
+    element6: "affiliates",
+  },
+  {
+    id:4,
+    titleElement: "ABOUT",
+    chevron:{chevronright},
+    element1: "About Us",
+    element2: "Success Stories",
+    element3: "Our Values",
+    element4: "Careers at KodeKloud",
+    element5: "Privacy Policy",
+    element6: "Terms of Service",
+    element7: "Business Terms of Service",
+  },
+  {
+    id:5,
+    titleElement: "HELP",
+    chevron:{chevronright},
+    element1: "Contact Us",
+    element2: "Support",
+    element3: "Give us feedback",
+    element4: "Request a Course",
+  },
+  {
+    id:6,
+    titleElement: "YOUR ACCOUNT",
+    chevron:{chevronright},
+    element1: "Sign In",
+    element2: "Register",
+  },
+];
