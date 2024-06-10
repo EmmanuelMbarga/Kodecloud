@@ -56,7 +56,9 @@ export default function NavBar() {
             join now
           </button>
         </ul>
-        <div className="w-8 h-8 bg-pink-600 Laptop:hidden screenLarge:hidden"></div>
+        <div className="w-8 h-8 Laptop:hidden screenLarge:hidden">
+          <img src="https://cdn.icon-icons.com/icons2/2761/PNG/512/menu_hamburger_burger_icon_176431.png" alt="burgerbutton"/>
+        </div>
       </div>
 
     </>
